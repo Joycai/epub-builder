@@ -1,0 +1,10 @@
+{
+    "presets": ["@babel/preset-react"],
+    "env": {
+      "development": {
+      },
+      "production": {
+        "presets": ["@babel/preset-react","@babel/preset-env"]
+      }
+    }
+  }
